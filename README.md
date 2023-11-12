@@ -1,44 +1,29 @@
-# Getting Started with Serverless Stack (SST)
+# Video App - Beam help on demand
 
-This project was bootstrapped with [Create Serverless Stack](https://docs.serverless-stack.com/packages/create-serverless-stack).
+Use a special purpose tool to guide your customers to complete tasks that require help. Zoom/ Skype and others are made for video conferencing. The world is still laking a special purpose video tool for customer service. See what you customers see and get a better picture of the situation. Solve the problem instantly or atleast arrive later to help better prepared with the right tools. 
 
-Start by installing the dependencies.
 
-```bash
-$ npm install
-```
 
-## Commands
+ui is bootstrapped with create-react-app.
+Neccessary env variables are described in the env.example file.
 
-### `npm run start`
+To start frontend. 
 
-Starts the local Lambda development environment.
+    cd ./frontend
+    npm start
 
-### `npm run build`
+To start sst local env. https://sst.dev
 
-Build your app and synthesize your stacks.
+    npm start 
 
-Generates a `.build/` directory with the compiled files and a `.build/cdk.out/` directory with the synthesized CloudFormation stacks.
 
-### `npm run deploy [stack]`
+Frontend resources in /frontend
+sst stacks in /stacks
+backend resources in /resources
 
-Deploy all your stacks to AWS. Or optionally deploy, a specific stack.
 
-### `npm run remove [stack]`
-
-Remove all your stacks and all of their resources from AWS. Or optionally removes, a specific stack.
-
-### `npm run test`
-
-Runs your tests using Jest. Takes all the [Jest CLI options](https://jestjs.io/docs/en/cli).
-
-## Documentation
-
-Learn more about the Serverless Stack.
-- [Docs](https://docs.serverless-stack.com)
-- [@serverless-stack/cli](https://docs.serverless-stack.com/packages/cli)
-- [@serverless-stack/resources](https://docs.serverless-stack.com/packages/resources)
-
-## Community
-
-[Follow us on Twitter](https://twitter.com/ServerlessStack) or [post on our forums](https://discourse.serverless-stack.com).
+Example pictures: 
+![Call Document](https://github.com/lasse610/streem-frontend/blob/master/img/callDocument.jpg)
+![Invite](https://github.com/lasse610/streem-frontend/blob/master/img/invitation.jpg)
+![Customer view](https://github.com/lasse610/streem-frontend/blob/master/img/customerView.jpg)
+![Expert view](https://github.com/lasse610/streem-frontend/blob/master/img/expertView.jpg)
