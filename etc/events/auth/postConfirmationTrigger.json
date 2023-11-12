@@ -1,0 +1,22 @@
+{
+    "version": "1",
+    "region": "eu-central-1",
+    "userPoolId": "eu-central-1_UfHE0ZLpY",
+    "userName": "76929efb-6165-4b59-bcdc-523fdd3d73ee",
+    "callerContext": {
+      "awsSdkVersion": "aws-sdk-unknown-unknown",
+      "clientId": "u04u4eal1mnvtb8am30jf2cck"
+    },
+    "triggerSource": "PostConfirmation_ConfirmSignUp",
+    "request": {
+      "userAttributes": {
+        "sub": "76929efb-6165-4b59-bcdc-523fdd3d73ee",
+        "email_verified": "true",
+        "cognito:user_status": "CONFIRMED",
+        "cognito:email_alias": "lasse.tammela@barona.fi",
+        "name": "Lasse",
+        "email": "lasse.tammela@barona.fi"
+      }
+    },
+    "response": {}
+  }
